@@ -14,8 +14,22 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: "Gotham";
+  src: local("Gotham"),
+   url(./assets//fonts/GothamBook.ttf) format("truetype");
+  font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./assets/fonts.Gotham-Medium.woff) format('woff');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
 a {
-  font-weight: 500;
+  font-weight: 400;
   color: #646cff;
   text-decoration: inherit;
 }

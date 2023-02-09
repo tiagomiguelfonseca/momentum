@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.font-face-gm {
+  font-family: "Gotham";
+ }
+
+ @font-face {
+  font-family: "GothamBook";   /*Can be any text*/
+  src: local("GothamBook"),
+    url("./assets/fonts/GothamBook.ttf") format("truetype");
+}
