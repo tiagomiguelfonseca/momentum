@@ -76,8 +76,7 @@ const data = [
 
 export default function SearchAppBar() {
   const [searchQuery, setSearchQuery] = React.useState("");
-  const dataFiltered = filterData(searchQuery, data);
-  console.log(searchQuery);
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
